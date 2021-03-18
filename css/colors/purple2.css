@@ -1,0 +1,65 @@
+/* --------------------------------- */
+/* Css Color Style                   */
+/*---------------------------------- */
+
+.profile a {
+    color: #7F7F7F;
+}
+a:hover, a:focus {
+    color: #623A93;
+}
+
+header nav a.home-btn, .estate figure .imgout .price, .site-btn, .timeline li:first-child i, nav ul li a:after, .owl-theme .owl-controls .owl-page span, .skill-list .progress .percentage, ul.profile-information li:first-child:before{
+    background: #592C8B !important;
+}
+
+header nav ul li a:hover, .events ul li .datenlocation span, .namenprice .price, .cbp-filter-item-active, .portfolio-content p span, #blog-post .blog-sidebar ul.category-list li a:hover, #blog-post .blog-sidebar .popular-posts ul li a .info{
+    color: #592C8B !important;
+}
+
+.spinner:before{
+    border-top-color: #592C8B;  
+}
+
+ul.profile-information li:before{
+	border-color: #592C8B; 
+}
+
+/* Hover Color*/
+
+.site-btn:hover, .site-btn:focus, header nav a.home-btn:hover, header nav a.home-btn:focus, .section-title span{
+    color: #fff;
+   background-color: #8f4fde !important;
+}
+
+/* Opacity Color*/
+
+#portfolio .cbp-item .portfolio-image .icon i, #portfolio .cbp-item figure .icon i{
+    background: rgb(75, 26, 129);
+}
+
+/* for dark colors */
+
+.site-btn, header nav a.home-btn i, ul.profile-information li:first-child:before, #blog .blog-box .date span, #blog .blog-box .date span, .timeline li:first-child i, .cbp-l-loadMore-link.site-btn{
+	color:#fff !important;
+}
+
+.timeline li:before, ul.profile-information li:before{
+	border-color: #623A93 !important;
+}
+
+.tab.active a, #blog-post .post-list ul li a, #blog-post .post-comment ul li .comment-content a{
+	color: #623A93;
+}
+
+
+
+
+
+
+
+
+
+
+
+
