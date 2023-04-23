@@ -163,7 +163,24 @@ $(document).ready(function () {
                     gapHorizontal: 50,
                 }
             }]
-    }); 
+    });
+
+
+    function calculateAge (birthDate) {
+        birthDate = new Date(birthDate);
+        otherDate = new Date();
+
+        var years = (otherDate.getFullYear() - birthDate.getFullYear());
+
+        if (otherDate.getMonth() < birthDate.getMonth() ||
+            otherDate.getMonth() == birthDate.getMonth() && otherDate.getDate() < birthDate.getDate()) {
+            years--;
+        }
+
+        return years;
+    }
+    var age = calculateAge("06/06/1994"); // Format: MM/DD/YYYY
+    $('.profile-year').find('p').html('<span>Возраст:</span> '+age+' лет');
 
 }); // document ready end 
 
